@@ -1,0 +1,17 @@
+{
+  "name": "conduit_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:tests:CHROME": "cypress run --spec cypress/e2e/Tests --headed --browser chrome",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
